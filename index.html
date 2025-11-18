@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webpage</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #0077b6;
+    }
+
+    p {
+      margin-bottom: 1em;
+      font-size: 1.1em;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    a {
+      color: #ff6b6b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      display: inline-block;
+      background-color: #00b4d8;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0077b6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #555;
+      background-color: #e0f7fa;
+      border-top: 2px solid #0077b6;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Stylish Webpage</h1>
+    <p>Learning HTML, CSS & JavaScript the fun way!</p>
+  </header>
+
+  <main>
+    <h2>About This Page</h2>
+    <p>
+      This webpage demonstrates how to use <strong>HTML</strong> for structure,
+      <strong>CSS</strong> for styling, and <strong>JavaScript</strong> for interactivity.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beautiful beach">
+
+    <p>
+      This is for YOUTUBE  
+      <a href="https://www.youtube.com/" target="_blank">Click Now!
+      </a>
+    </p>
+
+    <button onclick="showAlert()">Click Me!</button>
+  </main>
+
+  <footer>
+    © 2025 My Stylish Webpage | Designed by Abhay
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("Hello!");
+    }
+  </script>
+</body>
+</html>
